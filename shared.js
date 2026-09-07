@@ -1,0 +1,1 @@
+document.querySelectorAll("[data-track-subject]").forEach((el)=>{el.addEventListener("click",()=>{analytics.capture("subject_interest",{subject:el.dataset.trackSubject,source_page:document.body.dataset.page||"unknown"});});});
