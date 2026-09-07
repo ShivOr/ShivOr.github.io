@@ -1,5 +1,5 @@
 (function () {
-  const POSTHOG_KEY = "phc_REPLACE_WITH_YOUR_PROJECT_KEY";
+  const POSTHOG_KEY = "phc_mDAavAqBsfaHDMzYVrVyX6TxSYcu45WuDZFytxAZYMmP";
   const POSTHOG_HOST = "https://us.i.posthog.com";
   const enabled = POSTHOG_KEY && !POSTHOG_KEY.includes("REPLACE_WITH");
   if (enabled) {
